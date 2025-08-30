@@ -1,0 +1,9 @@
++TOOL:craq
+ARGS
+    <else>
+        craq --help
+    <main>
+        craq ::*APP-ARGS*::
+RUN
+    <container:taf-craq-v1.0.9-alpha:ghcr.io/taffish-org/craq-v1.0.9-alpha>
+        ::*MAIN*::
